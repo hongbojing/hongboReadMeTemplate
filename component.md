@@ -1,10 +1,10 @@
 ### text
 ```
-*This text will be italic*
-_This will also be italic_
+*italic*
+_italic_
 
-**This text will be bold**
-__This will also be bold__
+**bold**
+__bold__
 
 _You **can** combine them_
 ```
@@ -12,18 +12,17 @@ _You **can** combine them_
 ### list
 ```
 unordered
-
 * Item 1
 * Item 2
-  * Item 2a
-  * Item 2b
+  * Item 2.1
+  * Item 2.2
   
 ordered
 1. Item 1
 2. Item 2
 3. Item 3
-   * Item 3a
-   * Item 3b
+   * Item 3.1
+   * Item 3.2
 ```
 
 ### images
@@ -37,6 +36,7 @@ ordered
 ```
 
 ### block quotes
+> block quotes
 ```
 > content
 ```
@@ -44,17 +44,6 @@ ordered
 ### inline code
 ```
 <addr> element here instead.
-```
-
-### syntax highlighting
-```
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
 ```
 
 ### task lists
@@ -72,11 +61,3 @@ First Header | Second Header
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 ```
-
-
-
-
-
-
-
-
